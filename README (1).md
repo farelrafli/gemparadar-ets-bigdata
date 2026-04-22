@@ -1,0 +1,275 @@
+# 🌋 GempaRadar — Monitor Aktivitas Seismik Indonesia
+
+**Mata Kuliah:** Big Data dan Data Lakehouse  
+**Jenis Evaluasi:** Evaluasi Tengah Semester (ETS) — Praktik Kelompok  
+**Topik:** Topik 6 — GempaRadar  
+
+---
+
+## 👥 Anggota Kelompok & Kontribusi
+
+| No | Nama | NIM | Kontribusi |
+|----|------|-----|------------|
+| 1 | [Nama Anggota 1] | [NIM] | Setup Docker (Hadoop & Kafka), konfigurasi infrastruktur |
+| 2 | [Nama Anggota 2] | [NIM] | `kafka/producer_api.py` — integrasi USGS API |
+| 3 | [Nama Anggota 3] | [NIM] | `kafka/producer_rss.py` + `kafka/consumer_to_hdfs.py` |
+| 4 | [Nama Anggota 4] | [NIM] | `spark/analysis.ipynb` — 3 analisis wajib |
+| 5 | [Nama Anggota 5] | [NIM] | `dashboard/app.py` + `dashboard/templates/index.html` |
+
+---
+
+## 🎯 Deskripsi Topik
+
+GempaRadar adalah sistem monitoring aktivitas seismik Indonesia secara real-time. Sistem ini menjawab pertanyaan bisnis:
+
+> **"Di wilayah mana aktivitas gempa paling tinggi dalam periode ini, dan seberapa sering gempa signifikan (M>4) terjadi?"**
+
+**Sumber Data:**
+- **API:** USGS Earthquake FDSN API (gratis, tanpa API key, data real-time seluruh Indonesia)
+- **RSS:** BMKG Gempa M≥5.0 + Tempo Gempa Bumi
+
+---
+
+## 🏗️ Arsitektur Sistem
+
+```
+[USGS API]              [BMKG RSS + Tempo RSS]
+     │                          │
+     ▼                          ▼
+producer_api.py          producer_rss.py
+     │                          │
+     ▼                          ▼
+┌──────────────────────────────────────────┐
+│             APACHE KAFKA                  │
+│  Topic: gempa-api    Topic: gempa-rss     │
+└──────────────────────┬───────────────────┘
+                       │
+                       ▼
+               consumer_to_hdfs.py
+                       │
+                       ▼
+┌──────────────────────────────────────────┐
+│           HADOOP HDFS                     │
+│  /data/gempa/api/   /data/gempa/rss/     │
+│  /data/gempa/hasil/                       │
+└──────────────┬───────────────────────────┘
+               │
+               ▼
+         spark/analysis.ipynb
+               │
+               ▼
+        dashboard/app.py
+        localhost:5000
+```
+
+---
+
+## ⚙️ Cara Menjalankan (Step-by-Step)
+
+### Prasyarat
+```bash
+pip install kafka-python feedparser requests flask pyspark
+```
+
+### Step 1: Buat Docker Network
+```bash
+docker network create bigdata-network
+```
+
+### Step 2: Jalankan Hadoop
+```bash
+docker compose -f docker-compose-hadoop.yml up -d
+```
+
+Tunggu ±30 detik, lalu verifikasi:
+```bash
+# Cek container aktif (harus ada namenode, datanode1, datanode2, resourcemanager, nodemanager)
+docker compose -f docker-compose-hadoop.yml ps
+
+# Buat direktori HDFS
+docker exec namenode hdfs dfs -mkdir -p /data/gempa/api
+docker exec namenode hdfs dfs -mkdir -p /data/gempa/rss
+docker exec namenode hdfs dfs -mkdir -p /data/gempa/hasil
+docker exec namenode hdfs dfs -chmod -R 777 /data/gempa
+
+# Verifikasi
+docker exec namenode hdfs dfs -ls -R /data/
+```
+
+HDFS Web UI: [http://localhost:9870](http://localhost:9870)
+
+### Step 3: Jalankan Kafka
+```bash
+docker compose -f docker-compose-kafka.yml up -d
+```
+
+Tunggu ±20 detik, lalu buat topic:
+```bash
+# Buat topic gempa-api
+docker exec kafka-broker kafka-topics.sh \
+  --create --topic gempa-api \
+  --bootstrap-server localhost:9092 \
+  --partitions 1 --replication-factor 1
+
+# Buat topic gempa-rss
+docker exec kafka-broker kafka-topics.sh \
+  --create --topic gempa-rss \
+  --bootstrap-server localhost:9092 \
+  --partitions 1 --replication-factor 1
+
+# Verifikasi
+docker exec kafka-broker kafka-topics.sh --list --bootstrap-server localhost:9092
+```
+
+Kafka UI: [http://localhost:8080](http://localhost:8080)
+
+### Step 4: Jalankan Producer API (terminal 1)
+```bash
+python kafka/producer_api.py
+```
+
+Verifikasi event masuk:
+```bash
+docker exec kafka-broker kafka-console-consumer.sh \
+  --topic gempa-api --from-beginning --bootstrap-server localhost:9092
+```
+
+### Step 5: Jalankan Producer RSS (terminal 2)
+```bash
+python kafka/producer_rss.py
+```
+
+Verifikasi:
+```bash
+docker exec kafka-broker kafka-console-consumer.sh \
+  --topic gempa-rss --from-beginning --bootstrap-server localhost:9092
+```
+
+### Step 6: Jalankan Consumer to HDFS (terminal 3)
+```bash
+python kafka/consumer_to_hdfs.py
+```
+
+Verifikasi (setelah 2 menit):
+```bash
+docker exec namenode hdfs dfs -ls -R /data/gempa/
+docker exec namenode hdfs dfs -du -h /data/gempa/api/
+```
+
+### Step 7: Jalankan Spark Analysis
+```bash
+# Install Spark terlebih dahulu jika belum ada
+pip install pyspark
+
+# Jalankan notebook
+jupyter notebook spark/analysis.ipynb
+# atau
+jupyter lab spark/analysis.ipynb
+```
+
+Jalankan semua cell dari atas ke bawah. Verifikasi output:
+```bash
+docker exec namenode hdfs dfs -ls /data/gempa/hasil/
+# dashboard/data/spark_results.json harus terbuat
+```
+
+### Step 8: Jalankan Dashboard
+```bash
+python dashboard/app.py
+```
+
+Buka browser: [http://localhost:5000](http://localhost:5000)
+
+---
+
+## 🔍 Verifikasi Checklist
+
+### Kafka
+```bash
+# Cek semua topic
+docker exec kafka-broker kafka-topics.sh --list --bootstrap-server localhost:9092
+
+# Cek consumer group
+docker exec kafka-broker kafka-consumer-groups.sh \
+  --describe --group gemparadar-hdfs-consumer-api \
+  --bootstrap-server localhost:9092
+```
+
+### HDFS
+```bash
+docker exec namenode hdfs dfs -ls -R /data/gempa/
+docker exec namenode hdfs dfs -du -h /data/gempa/api/
+```
+
+### Dashboard
+```bash
+curl http://localhost:5000/api/status
+curl http://localhost:5000/api/data
+```
+
+---
+
+## 📊 Analisis Spark (3 Analisis Wajib)
+
+| # | Analisis | Method | Output |
+|---|----------|--------|--------|
+| 1 | Distribusi Magnitudo (Mikro/Minor/Sedang/Kuat) | DataFrame API | Jumlah + persentase per kategori |
+| 2 | Top 10 Wilayah Paling Aktif Seismik | Spark SQL | Ranking wilayah + rata-rata magnitude |
+| 3 | Distribusi Kedalaman (Dangkal/Menengah/Dalam) | Spark SQL | Jumlah + statistik per kategori kedalaman |
+
+---
+
+## 📸 Screenshots
+
+> **[Tambahkan screenshot berikut sebelum demo:]**
+> - Screenshot HDFS Web UI (localhost:9870) menampilkan file di /data/gempa/
+> - Screenshot output terminal producer_api.py (event gempa masuk)
+> - Screenshot output terminal consumer (flush ke HDFS)
+> - Screenshot dashboard (localhost:5000) dengan data nyata
+> - Screenshot Spark output 3 analisis
+
+---
+
+## 🧗 Tantangan & Solusi
+
+| Tantangan | Solusi |
+|-----------|--------|
+| USGS API mengembalikan gempa yang sama berulang | Simpan `sent_ids` set dalam memori, skip jika sudah terkirim |
+| Consumer harus baca 2 topic sekaligus | Gunakan `threading` — 1 thread per topic + 1 thread flush |
+| Spark membaca banyak file JSON sekaligus | `spark.read.json(folder/)` otomatis membaca semua file dalam folder |
+| Dashboard perlu data live + data Spark | Consumer simpan salinan lokal `live_api.json`; Flask baca keduanya |
+
+---
+
+## 📁 Struktur Repository
+
+```
+gemparadar-ets-bigdata/
+├── README.md
+├── docker-compose-hadoop.yml
+├── docker-compose-kafka.yml
+├── hadoop.env
+├── kafka/
+│   ├── producer_api.py
+│   ├── producer_rss.py
+│   └── consumer_to_hdfs.py
+├── spark/
+│   └── analysis.ipynb
+└── dashboard/
+    ├── app.py
+    ├── templates/
+    │   └── index.html
+    └── data/               ← .gitignore (auto-generated)
+        ├── spark_results.json
+        ├── live_api.json
+        └── live_rss.json
+```
+
+---
+
+## 📝 Catatan Teknis
+
+- **Rate limit USGS:** Tidak ada — API publik, data diperbarui setiap menit
+- **Format data:** Semua event disimpan sebagai JSON dengan field `timestamp` konsisten (ISO 8601 UTC)
+- **Idempotency:** Producer menggunakan `enable_idempotence=True` + set `sent_ids` untuk menghindari duplikat
+- **Threading:** Consumer menggunakan 3 thread: 1 consume API, 1 consume RSS, 1 auto-flush ke HDFS
