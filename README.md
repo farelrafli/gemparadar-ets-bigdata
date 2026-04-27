@@ -8,13 +8,13 @@
 
 ## 👥 Anggota Kelompok & Kontribusi
 
-| No | Nama | NIM | Kontribusi |
+| No | Nama | NRP | Kontribusi |
 |----|------|-----|------------|
-| 1 | [Nama Anggota 1] | [NIM] | Setup Docker (Hadoop & Kafka), konfigurasi infrastruktur |
-| 2 | [Nama Anggota 2] | [NIM] | `kafka/producer_api.py` — integrasi USGS API |
-| 3 | [Nama Anggota 3] | [NIM] | `kafka/producer_rss.py` + `kafka/consumer_to_hdfs.py` |
-| 4 | [Nama Anggota 4] | [NIM] | `spark/analysis.ipynb` — 3 analisis wajib |
-| 5 | [Nama Anggota 5] | [NIM] | `dashboard/app.py` + `dashboard/templates/index.html` |
+| 1 | Mohammad Abyan Ranuaji | 5027241106 | Setup Docker (Hadoop & Kafka), konfigurasi infrastruktur |
+| 2 | Muhammad Farrel Rafli Al Fasya | 5027241075 | `kafka/producer_api.py` — integrasi USGS API |
+| 3 | Salomo | 5027221063 | `kafka/producer_rss.py` + `kafka/consumer_to_hdfs.py` |
+| 4 | Nabilah Anindya Paramesti | 5027241006 | `spark/analysis.ipynb` — 3 analisis wajib |
+| 5 | Ivan Syarifuddin | 5027241045 | `dashboard/app.py` + `dashboard/templates/index.html` |
 
 ---
 
