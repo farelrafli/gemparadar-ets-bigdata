@@ -120,7 +120,11 @@ docker exec kafka-broker kafka-topics.sh \
 # Verifikasi
 docker exec kafka-broker kafka-topics.sh --list --bootstrap-server localhost:9092
 ```
-
+jika ada error saat pembuatan topic jalankan ini dan jalankan ulang pembuatan topic
+```bash
+docker-compose -f docker-compose-kafka.yml down
+docker-compose -f docker-compose-kafka.yml up -d
+```
 Kafka UI: [http://localhost:8080](http://localhost:8080)
 
 ### Step 4: Jalankan Producer API (terminal 1)
@@ -156,22 +160,19 @@ docker exec namenode hdfs dfs -ls -R /data/gempa/
 docker exec namenode hdfs dfs -du -h /data/gempa/api/
 ```
 
-### Step 7: Jalankan Spark Analysis
+### Step 7 — Jalankan Spark Analysis (Otomatis)
+
 ```bash
 # Install Spark terlebih dahulu jika belum ada
 pip install pyspark
-
-# Jalankan notebook
-jupyter notebook spark/analysis.ipynb
-# atau
-jupyter lab spark/analysis.ipynb
 ```
-
-Jalankan semua cell dari atas ke bawah. Verifikasi output:
 ```bash
-docker exec namenode hdfs dfs -ls /data/gempa/hasil/
-# dashboard/data/spark_results.json harus terbuat
+python3 spark/analysis.py
 ```
+
+Script ini berjalan otomatis setiap 10 menit — sync data dari HDFS,
+jalankan 3 analisis, dan update spark_results.json untuk dashboard.
+Tidak perlu buka Jupyter manual.
 
 ### Step 8: Jalankan Dashboard
 ```bash
@@ -222,11 +223,25 @@ curl http://localhost:5000/api/data
 ## 📸 Screenshots
 
 > **[Tambahkan screenshot berikut sebelum demo:]**
-> - Screenshot HDFS Web UI (localhost:9870) menampilkan file di /data/gempa/
+> - Screenshot HDFS Web UI (localhost:9870) menampilkan file di /data/gempa
+<img width="1914" height="958" alt="image" src="https://github.com/user-attachments/assets/2a46c00f-14b2-447e-970b-9d66072f0713" />
+<img width="1904" height="965" alt="image" src="https://github.com/user-attachments/assets/d3094c48-238c-4398-a326-ec4317d27cca" />
+
 > - Screenshot output terminal producer_api.py (event gempa masuk)
+<img width="1462" height="597" alt="image" src="https://github.com/user-attachments/assets/7766305f-184c-4b7d-b270-ee4ab314e123" />
+> - Screenshot output terminal producer_rss.py
+<img width="1437" height="605" alt="image" src="https://github.com/user-attachments/assets/49c8b5d8-b7fa-40ba-b20a-9084f007584b" />
+
 > - Screenshot output terminal consumer (flush ke HDFS)
+<img width="1438" height="632" alt="image" src="https://github.com/user-attachments/assets/1b376318-348b-4aea-889b-55669da79ade" />
+
 > - Screenshot dashboard (localhost:5000) dengan data nyata
+<img width="1919" height="863" alt="image" src="https://github.com/user-attachments/assets/65878f7a-9dfd-4414-8820-a26c80466722" />
+
 > - Screenshot Spark output 3 analisis
+<img width="1414" height="645" alt="image" src="https://github.com/user-attachments/assets/c7758f5d-08eb-4431-a8e9-506690bfa5dc" />
+<img width="1456" height="314" alt="image" src="https://github.com/user-attachments/assets/6cc0b8bc-75df-4bf6-92d7-c2daa7a79f25" />
+
 
 ---
 
