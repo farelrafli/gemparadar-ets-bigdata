@@ -1,0 +1,452 @@
+[
+  {
+    "article_id": "d22ae993",
+    "title": "M 4.8 - 152 km ESE of Kokopo, Papua New Guinea",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgms",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-28 10:27:27 UTC</dd><dd>2026-04-28 10:27:27 UTC at epicenter</dd><dt>Location</dt><dd>4.701&deg;S 153.595&deg;E</dd><dt>Depth</dt><dd>113.34 km (70.43 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "4b79c26b",
+    "title": "M 4.9 - 75 km ENE of Noda, Japan",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgm7",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-28 07:24:43 UTC</dd><dd>2026-04-28 07:24:43 UTC at epicenter</dd><dt>Location</dt><dd>40.244&deg;N 142.691&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "233cf3b4",
+    "title": "M 4.7 - 184 km SSE of Vilyuchinsk, Russia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sglz",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-28 06:23:52 UTC</dd><dd>2026-04-28 06:23:52 UTC at epicenter</dd><dt>Location</dt><dd>51.345&deg;N 159.200&deg;E</dd><dt>Depth</dt><dd>35.00 km (21.75 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "a4380700",
+    "title": "M 4.8 - 0 km SE of San Ignacio, Costa Rica",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sglc",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-IV\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us7000sglc#dyfi\" title=\"Did You Feel It? maximum reported intensity (55 reports)\">DYFI? - <strong class=\"roman\">IV</strong></a></p><dl><dt>Time</dt><dd>2026-04-28 03:49:47 UTC</dd><dd>2026-04-28 03:49:47 UTC at epicenter</dd><dt>Location</dt><dd>9.794&deg;N 84.155&deg;W</dd><dt>Depth</dt><dd>62.85 km (39.05 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "1d16ebd9",
+    "title": "M 4.5 - 98 km ESE of Kuqa, China",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgke",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-27 23:05:01 UTC</dd><dd>2026-04-27 23:05:01 UTC at epicenter</dd><dt>Location</dt><dd>41.281&deg;N 83.952&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "37f2cca8",
+    "title": "M 4.6 - 140 km ESE of Kokopo, Papua New Guinea",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgk1",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-27 22:25:07 UTC</dd><dd>2026-04-27 22:25:07 UTC at epicenter</dd><dt>Location</dt><dd>4.609&deg;S 153.509&deg;E</dd><dt>Depth</dt><dd>109.05 km (67.76 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "93ee7817",
+    "title": "M 4.6 - 103 km SW of Modisi, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st3z",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-27 08:17:21 UTC</dd><dd>2026-04-27 08:17:21 UTC at epicenter</dd><dt>Location</dt><dd>0.176&deg;S 123.746&deg;E</dd><dt>Depth</dt><dd>135.57 km (84.24 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "80bdaac4",
+    "title": "M 4.9 - 40 km ESE of Ierápetra, Greece",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st3w",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-27 07:45:02 UTC</dd><dd>2026-04-27 07:45:02 UTC at epicenter</dd><dt>Location</dt><dd>34.832&deg;N 26.126&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "e2690656",
+    "title": "M 5.1 - 26 km SW of Khorugh, Tajikistan",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st3s",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-II\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000st3s#dyfi\" title=\"Did You Feel It? maximum reported intensity (1 reports)\">DYFI? - <strong class=\"roman\">II</strong></a></p><dl><dt>Time</dt><dd>2026-04-27 06:46:08 UTC</dd><dd>2026-04-27 06:46:08 UTC at epicenter</dd><dt>Location</dt><dd>37.347&deg;N 71.312&deg;E</dd><dt>Depth</dt><dd>105.11 km (65.31 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "722b6045",
+    "title": "M 6.1 - 18 km W of Sarabetsu, Japan",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st1m",
+    "summary": "<p class=\"quicksummary\"><a class=\"pager-green\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000st1m#pager\" title=\"PAGER estimated impact alert level\">PAGER - <strong class=\"roman\">GREEN</strong></a> <a class=\"mmi-V\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000st1m#shakemap\" title=\"ShakeMap maximum estimated intensity\">ShakeMap - <strong class=\"roman\">V</strong></a> <a class=\"mmi-V\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000st1m#dyfi\" title=\"Did",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "ac9a7c77",
+    "title": "M 4.5 - 111 km WNW of Türkmenbaşy, Turkmenistan",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st16",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-26 17:09:17 UTC</dd><dd>2026-04-26 17:09:17 UTC at epicenter</dd><dt>Location</dt><dd>40.311&deg;N 51.702&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "9ee4037a",
+    "title": "M 5.0 - 77 km ENE of Miyako, Japan",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st11",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-26 16:57:22 UTC</dd><dd>2026-04-26 16:57:22 UTC at epicenter</dd><dt>Location</dt><dd>39.989&deg;N 142.733&deg;E</dd><dt>Depth</dt><dd>35.00 km (21.75 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "8a6a9843",
+    "title": "M 4.7 - 218 km WNW of Severo-Kuril’sk, Russia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st08",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-26 13:23:02 UTC</dd><dd>2026-04-26 13:23:02 UTC at epicenter</dd><dt>Location</dt><dd>51.487&deg;N 153.283&deg;E</dd><dt>Depth</dt><dd>358.24 km (222.60 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "fa9ec216",
+    "title": "M 4.6 - 31 km E of Parapat, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sszu",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-26 11:52:25 UTC</dd><dd>2026-04-26 11:52:25 UTC at epicenter</dd><dt>Location</dt><dd>2.623&deg;N 99.220&deg;E</dd><dt>Depth</dt><dd>183.43 km (113.98 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "d065ec0b",
+    "title": "M 4.7 - 74 km E of Noda, Japan",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssyh",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-26 06:43:53 UTC</dd><dd>2026-04-26 06:43:53 UTC at epicenter</dd><dt>Location</dt><dd>40.031&deg;N 142.685&deg;E</dd><dt>Depth</dt><dd>35.00 km (21.75 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "4cf884f6",
+    "title": "M 4.6 - 78 km SE of Akutan, Alaska",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssxr",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-III\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssxr#shakemap\" title=\"ShakeMap maximum estimated intensity\">ShakeMap - <strong class=\"roman\">III</strong></a> <a class=\"mmi-II\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssxr#dyfi\" title=\"Did You Feel It? maximum reported intensity (1 reports)\">DYFI? - <strong class=\"roman\">II</strong></a></p><dl><dt>Time</dt><dd>2026-04-26 04:26:59 UTC</dd><dd>2026-04-26 04:26:59 UTC at e",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "f84dc501",
+    "title": "M 5.5 - 163 km SE of Khovd, Mongolia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssxt",
+    "summary": "<p class=\"quicksummary\"><a class=\"pager-green\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssxt#pager\" title=\"PAGER estimated impact alert level\">PAGER - <strong class=\"roman\">GREEN</strong></a> <a class=\"mmi-VII\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssxt#shakemap\" title=\"ShakeMap maximum estimated intensity\">ShakeMap - <strong class=\"roman\">VII</strong></a> <a class=\"mmi-III\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssxt#dyfi\" titl",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "33355155",
+    "title": "M 4.5 - 227 km ESE of Attu Station, Alaska",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssxk",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-III\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssxk#shakemap\" title=\"ShakeMap maximum estimated intensity\">ShakeMap - <strong class=\"roman\">III</strong></a></p><dl><dt>Time</dt><dd>2026-04-26 03:28:29 UTC</dd><dd>2026-04-26 03:28:29 UTC at epicenter</dd><dt>Location</dt><dd>52.208&deg;N 176.371&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "ecd877dd",
+    "title": "M 4.9 - Kermadec Islands, New Zealand",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sswn",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-25 23:35:19 UTC</dd><dd>2026-04-25 23:35:19 UTC at epicenter</dd><dt>Location</dt><dd>30.294&deg;S 177.872&deg;W</dd><dt>Depth</dt><dd>73.66 km (45.77 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "da0efbb2",
+    "title": "M 4.7 - 177 km S of Pagar Alam, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sswe",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-25 23:00:58 UTC</dd><dd>2026-04-25 23:00:58 UTC at epicenter</dd><dt>Location</dt><dd>5.633&deg;S 103.282&deg;E</dd><dt>Depth</dt><dd>35.00 km (21.75 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "99fb3daa",
+    "title": "M 4.8 - 108 km ENE of Miyako, Japan",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssvu",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-25 20:41:32 UTC</dd><dd>2026-04-25 20:41:32 UTC at epicenter</dd><dt>Location</dt><dd>39.895&deg;N 143.161&deg;E</dd><dt>Depth</dt><dd>35.00 km (21.75 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "79373569",
+    "title": "M 5.0 - 82 km SSW of Paracas, Peru",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssvq",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-II\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssvq#dyfi\" title=\"Did You Feel It? maximum reported intensity (2 reports)\">DYFI? - <strong class=\"roman\">II</strong></a></p><dl><dt>Time</dt><dd>2026-04-25 20:14:39 UTC</dd><dd>2026-04-25 20:14:39 UTC at epicenter</dd><dt>Location</dt><dd>14.575&deg;S 76.495&deg;W</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "38df79f3",
+    "title": "M 4.9 - 14 km ENE of Kentrí, Greece",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssve",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-III\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssve#dyfi\" title=\"Did You Feel It? maximum reported intensity (2 reports)\">DYFI? - <strong class=\"roman\">III</strong></a></p><dl><dt>Time</dt><dd>2026-04-25 19:49:58 UTC</dd><dd>2026-04-25 19:49:58 UTC at epicenter</dd><dt>Location</dt><dd>35.077&deg;N 25.905&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "5e45378e",
+    "title": "M 4.6 - 165 km SE of Bitung, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssuz",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-25 17:40:24 UTC</dd><dd>2026-04-25 17:40:24 UTC at epicenter</dd><dt>Location</dt><dd>0.202&deg;N 125.963&deg;E</dd><dt>Depth</dt><dd>27.29 km (16.96 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "c7036f8d",
+    "title": "M 4.5 - 156 km E of Petropavlovsk-Kamchatsky, Russia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssu2",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-25 13:22:05 UTC</dd><dd>2026-04-25 13:22:05 UTC at epicenter</dd><dt>Location</dt><dd>52.920&deg;N 160.945&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "47585d01",
+    "title": "M 5.2 - 34 km SE of Vilyuchinsk, Russia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sst4",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-II\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sst4#dyfi\" title=\"Did You Feel It? maximum reported intensity (1 reports)\">DYFI? - <strong class=\"roman\">II</strong></a></p><dl><dt>Time</dt><dd>2026-04-25 10:20:21 UTC</dd><dd>2026-04-25 10:20:21 UTC at epicenter</dd><dt>Location</dt><dd>52.676&deg;N 158.692&deg;E</dd><dt>Depth</dt><dd>87.83 km (54.58 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "944cb378",
+    "title": "M 4.6 - 22 km WSW of Tournavista, Peru",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sst2",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-25 09:53:40 UTC</dd><dd>2026-04-25 09:53:40 UTC at epicenter</dd><dt>Location</dt><dd>8.973&deg;S 74.902&deg;W</dd><dt>Depth</dt><dd>136.97 km (85.11 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "4e460e46",
+    "title": "M 4.7 - 35 km NW of Teeli, Russia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sssz",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-II\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sssz#dyfi\" title=\"Did You Feel It? maximum reported intensity (1 reports)\">DYFI? - <strong class=\"roman\">II</strong></a></p><dl><dt>Time</dt><dd>2026-04-25 09:40:38 UTC</dd><dd>2026-04-25 09:40:38 UTC at epicenter</dd><dt>Location</dt><dd>51.224&deg;N 89.829&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "c0c80707",
+    "title": "M 4.6 - 250 km WNW of Tual, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssss",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-25 09:07:07 UTC</dd><dd>2026-04-25 09:07:07 UTC at epicenter</dd><dt>Location</dt><dd>5.045&deg;S 130.568&deg;E</dd><dt>Depth</dt><dd>130.59 km (81.15 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "057ebe21",
+    "title": "M 5.4 - 83 km SE of Akutan, Alaska",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sssg",
+    "summary": "<p class=\"quicksummary\"><a class=\"pager-green\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sssg#pager\" title=\"PAGER estimated impact alert level\">PAGER - <strong class=\"roman\">GREEN</strong></a> <a class=\"mmi-IV\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sssg#shakemap\" title=\"ShakeMap maximum estimated intensity\">ShakeMap - <strong class=\"roman\">IV</strong></a> <a class=\"mmi-IV\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sssg#dyfi\" title=\"",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "b1a3ab5a",
+    "title": "M 4.5 - 238 km ESE of Attu Station, Alaska",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssrm",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-III\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssrm#shakemap\" title=\"ShakeMap maximum estimated intensity\">ShakeMap - <strong class=\"roman\">III</strong></a></p><dl><dt>Time</dt><dd>2026-04-25 05:18:45 UTC</dd><dd>2026-04-25 05:18:45 UTC at epicenter</dd><dt>Location</dt><dd>52.224&deg;N 176.553&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "836ea281",
+    "title": "M 4.5 - 49 km SW of Andalgalá, Argentina",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssr1",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-25 02:56:29 UTC</dd><dd>2026-04-25 02:56:29 UTC at epicenter</dd><dt>Location</dt><dd>27.947&deg;S 66.611&deg;W</dd><dt>Depth</dt><dd>163.80 km (101.78 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "bbb354f9",
+    "title": "M 4.5 - 47 km SW of Champerico, Guatemala",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssqy",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-25 02:09:28 UTC</dd><dd>2026-04-25 02:09:28 UTC at epicenter</dd><dt>Location</dt><dd>14.035&deg;N 92.266&deg;W</dd><dt>Depth</dt><dd>35.00 km (21.75 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "66457193",
+    "title": "M 4.6 - 151 km ESE of Kokopo, Papua New Guinea",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssqb",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 23:59:31 UTC</dd><dd>2026-04-24 23:59:31 UTC at epicenter</dd><dt>Location</dt><dd>4.630&deg;S 153.604&deg;E</dd><dt>Depth</dt><dd>115.31 km (71.65 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "31f86e66",
+    "title": "M 4.5 - 215 km NNW of Kilmia, Yemen",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sspm",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 21:47:45 UTC</dd><dd>2026-04-24 21:47:45 UTC at epicenter</dd><dt>Location</dt><dd>14.052&deg;N 51.661&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "fc89ee6c",
+    "title": "M 4.9 - Kermadec Islands region",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssn7",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 18:22:32 UTC</dd><dd>2026-04-24 18:22:32 UTC at epicenter</dd><dt>Location</dt><dd>31.031&deg;S 178.331&deg;W</dd><dt>Depth</dt><dd>89.76 km (55.77 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "b5bbe4e7",
+    "title": "M 4.5 - Mid-Indian Ridge",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st06",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 17:08:04 UTC</dd><dd>2026-04-24 17:08:04 UTC at epicenter</dd><dt>Location</dt><dd>37.054&deg;S 78.345&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "d4620525",
+    "title": "M 4.5 - 91 km NNW of Pante Makasar, Timor Leste",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssmp",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 16:10:57 UTC</dd><dd>2026-04-24 16:10:57 UTC at epicenter</dd><dt>Location</dt><dd>8.470&deg;S 123.989&deg;E</dd><dt>Depth</dt><dd>172.36 km (107.10 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "c3667e53",
+    "title": "M 5.0 - 76 km NNW of Vallenar, Chile",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssjg",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-II\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssjg#dyfi\" title=\"Did You Feel It? maximum reported intensity (1 reports)\">DYFI? - <strong class=\"roman\">II</strong></a></p><dl><dt>Time</dt><dd>2026-04-24 13:49:41 UTC</dd><dd>2026-04-24 13:49:41 UTC at epicenter</dd><dt>Location</dt><dd>27.920&deg;S 70.996&deg;W</dd><dt>Depth</dt><dd>63.84 km (39.67 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "bbff8b72",
+    "title": "M 5.1 - 164 km E of Petropavlovsk-Kamchatsky, Russia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssja",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 12:49:37 UTC</dd><dd>2026-04-24 12:49:37 UTC at epicenter</dd><dt>Location</dt><dd>52.918&deg;N 161.072&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "0a9b5b52",
+    "title": "M 5.4 - 156 km E of Petropavlovsk-Kamchatsky, Russia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssiy",
+    "summary": "<p class=\"quicksummary\"><a class=\"pager-green\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssiy#pager\" title=\"PAGER estimated impact alert level\">PAGER - <strong class=\"roman\">GREEN</strong></a> <a class=\"mmi-IV\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssiy#shakemap\" title=\"ShakeMap maximum estimated intensity\">ShakeMap - <strong class=\"roman\">IV</strong></a></p><dl><dt>Time</dt><dd>2026-04-24 10:04:37 UTC</dd><dd>2026-04-24 10:04:37 UTC at epicenter</dd><",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "1a810ab0",
+    "title": "M 4.7 - 16 km ENE of Kentrí, Greece",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssiq",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-I\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssiq#dyfi\" title=\"Did You Feel It? maximum reported intensity (0 reports)\">DYFI? - <strong class=\"roman\">I</strong></a></p><dl><dt>Time</dt><dd>2026-04-24 09:26:45 UTC</dd><dd>2026-04-24 09:26:45 UTC at epicenter</dd><dt>Location</dt><dd>35.083&deg;N 25.918&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "88083495",
+    "title": "M 5.3 - 167 km E of Petropavlovsk-Kamchatsky, Russia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssik",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 08:59:28 UTC</dd><dd>2026-04-24 08:59:28 UTC at epicenter</dd><dt>Location</dt><dd>52.923&deg;N 161.112&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "96c1d2b3",
+    "title": "M 5.0 - 24 km S of Sitia, Greece",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssij",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-IV\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssij#dyfi\" title=\"Did You Feel It? maximum reported intensity (1 reports)\">DYFI? - <strong class=\"roman\">IV</strong></a></p><dl><dt>Time</dt><dd>2026-04-24 08:58:17 UTC</dd><dd>2026-04-24 08:58:17 UTC at epicenter</dd><dt>Location</dt><dd>34.990&deg;N 26.132&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "440adc4e",
+    "title": "M 4.5 - 81 km SSW of Severo-Kuril’sk, Russia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssil",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 08:47:02 UTC</dd><dd>2026-04-24 08:47:02 UTC at epicenter</dd><dt>Location</dt><dd>49.963&deg;N 155.858&deg;E</dd><dt>Depth</dt><dd>76.99 km (47.84 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "d929d95c",
+    "title": "M 4.6 - 117 km NW of Ternate, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssih",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 08:41:38 UTC</dd><dd>2026-04-24 08:41:38 UTC at epicenter</dd><dt>Location</dt><dd>1.562&deg;N 126.660&deg;E</dd><dt>Depth</dt><dd>35.00 km (21.75 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "ad001452",
+    "title": "M 4.8 - 113 km E of Kokopo, Papua New Guinea",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssib",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 07:26:31 UTC</dd><dd>2026-04-24 07:26:31 UTC at epicenter</dd><dt>Location</dt><dd>4.539&deg;S 153.271&deg;E</dd><dt>Depth</dt><dd>119.77 km (74.42 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "22d5af8e",
+    "title": "M 5.0 - 86 km E of Noda, Japan",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sshp",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 05:13:10 UTC</dd><dd>2026-04-24 05:13:10 UTC at epicenter</dd><dt>Location</dt><dd>40.095&deg;N 142.833&deg;E</dd><dt>Depth</dt><dd>35.00 km (21.75 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "e1e27333",
+    "title": "M 5.3 - 119 km WNW of Ternate, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sshk",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-24 04:45:20 UTC</dd><dd>2026-04-24 04:45:20 UTC at epicenter</dd><dt>Location</dt><dd>1.134&deg;N 126.367&deg;E</dd><dt>Depth</dt><dd>29.01 km (18.03 mi)</dd></dl>",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  },
+  {
+    "article_id": "0e9e476a",
+    "title": "M 5.8 - 11 km SE of Ierápetra, Greece",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sshc",
+    "summary": "<p class=\"quicksummary\"><a class=\"pager-green\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sshc#pager\" title=\"PAGER estimated impact alert level\">PAGER - <strong class=\"roman\">GREEN</strong></a> <a class=\"mmi-VI\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sshc#shakemap\" title=\"ShakeMap maximum estimated intensity\">ShakeMap - <strong class=\"roman\">VI</strong></a> <a class=\"mmi-VI\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sshc#dyfi\" title=\"",
+    "published": "2026-04-28T11:30:16Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-28T11:30:16Z"
+  }
+]

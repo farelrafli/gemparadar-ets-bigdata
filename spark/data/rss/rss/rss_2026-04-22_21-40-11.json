@@ -1,0 +1,452 @@
+[
+  {
+    "article_id": "4e2bcbc8",
+    "title": "M 5.1 - north of Ascension Island",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqn6",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 21:46:25 UTC</dd><dd>2026-04-16 21:46:25 UTC at epicenter</dd><dt>Location</dt><dd>0.214&deg;N 16.603&deg;W</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "240058f9",
+    "title": "M 5.2 - north of Ascension Island",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqml",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 20:36:42 UTC</dd><dd>2026-04-16 20:36:42 UTC at epicenter</dd><dt>Location</dt><dd>0.025&deg;N 16.494&deg;W</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "740801ec",
+    "title": "M 4.7 - south of the Kermadec Islands",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqme",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 19:51:59 UTC</dd><dd>2026-04-16 19:51:59 UTC at epicenter</dd><dt>Location</dt><dd>32.320&deg;S 178.216&deg;W</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "a11a8df4",
+    "title": "M 4.5 - south of the Fiji Islands",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqli",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 18:07:37 UTC</dd><dd>2026-04-16 18:07:37 UTC at epicenter</dd><dt>Location</dt><dd>23.495&deg;S 179.912&deg;W</dd><dt>Depth</dt><dd>550.45 km (342.04 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "707ee89e",
+    "title": "M 4.8 - Volcano Islands, Japan region",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqla",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 17:19:17 UTC</dd><dd>2026-04-16 17:19:17 UTC at epicenter</dd><dt>Location</dt><dd>23.993&deg;N 143.079&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "476a4944",
+    "title": "M 4.7 - 268 km W of Puerto Chacabuco, Chile",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqk6",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 16:51:52 UTC</dd><dd>2026-04-16 16:51:52 UTC at epicenter</dd><dt>Location</dt><dd>45.813&deg;S 76.224&deg;W</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "ca0cc5a1",
+    "title": "M 5.0 - 255 km SE of Katsuura, Japan",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqjk",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 14:43:15 UTC</dd><dd>2026-04-16 14:43:15 UTC at epicenter</dd><dt>Location</dt><dd>33.477&deg;N 142.225&deg;E</dd><dt>Depth</dt><dd>66.76 km (41.48 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "6f7f2e05",
+    "title": "M 6.0 - south of the Kermadec Islands",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqjb",
+    "summary": "<p class=\"quicksummary\"><a class=\"pager-green\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqjb#pager\" title=\"PAGER estimated impact alert level\">PAGER - <strong class=\"roman\">GREEN</strong></a> <a class=\"mmi-VI\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqjb#shakemap\" title=\"ShakeMap maximum estimated intensity\">ShakeMap - <strong class=\"roman\">VI</strong></a></p><dl><dt>Time</dt><dd>2026-04-16 13:30:01 UTC</dd><dd>2026-04-16 13:30:01 UTC at epicenter</dd><",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "d98e000b",
+    "title": "M 4.8 - south of the Kermadec Islands",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqj4",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 12:40:10 UTC</dd><dd>2026-04-16 12:40:10 UTC at epicenter</dd><dt>Location</dt><dd>32.130&deg;S 178.152&deg;W</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "ce09a31a",
+    "title": "M 4.7 - 102 km W of San Antonio de los Cobres, Argentina",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqid",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 08:51:19 UTC</dd><dd>2026-04-16 08:51:19 UTC at epicenter</dd><dt>Location</dt><dd>24.200&deg;S 67.330&deg;W</dd><dt>Depth</dt><dd>192.95 km (119.89 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "3ed621bb",
+    "title": "M 5.2 - 102 km SSW of Paracas, Peru",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqib",
+    "summary": "<p class=\"quicksummary\"><a class=\"mmi-II\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqib#dyfi\" title=\"Did You Feel It? maximum reported intensity (1 reports)\">DYFI? - <strong class=\"roman\">II</strong></a></p><dl><dt>Time</dt><dd>2026-04-16 08:09:02 UTC</dd><dd>2026-04-16 08:09:02 UTC at epicenter</dd><dt>Location</dt><dd>14.659&deg;S 76.767&deg;W</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "4df7dc04",
+    "title": "M 4.9 - 33 km S of Kirakira, Solomon Islands",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqhl",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 06:26:44 UTC</dd><dd>2026-04-16 06:26:44 UTC at epicenter</dd><dt>Location</dt><dd>10.756&deg;S 161.936&deg;E</dd><dt>Depth</dt><dd>50.77 km (31.55 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "5ac65bf9",
+    "title": "M 4.6 - 26 km WSW of Tabalosos, Peru",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqhk",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 06:18:51 UTC</dd><dd>2026-04-16 06:18:51 UTC at epicenter</dd><dt>Location</dt><dd>6.401&deg;S 76.917&deg;W</dd><dt>Depth</dt><dd>124.15 km (77.14 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "7b269132",
+    "title": "M 5.0 - 138 km SE of Kandrian, Papua New Guinea",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqh2",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-16 05:01:30 UTC</dd><dd>2026-04-16 05:01:30 UTC at epicenter</dd><dt>Location</dt><dd>7.096&deg;S 150.431&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "dc21093f",
+    "title": "M 4.6 - Mariana Islands region",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqfi",
+    "summary": "<dl><dt>Time</dt><dd>2026-04-15 23:19:31 UTC</dd><dd>2026-04-15 23:19:31 UTC at epicenter</dd><dt>Location</dt><dd>21.904&deg;N 145.749&deg;E</dd><dt>Depth</dt><dd>10.00 km (6.21 mi)</dd></dl>",
+    "published": "2026-04-22T21:39:44Z",
+    "source": "USGS-RSS",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "af399d04",
+    "title": "Pasien di Medan Ngaku Diangkat Rahim Tanpa Persetujuan, RS Bantah",
+    "url": "https://www.cnnindonesia.com/nasional/20260422213138-20-1350980/pasien-di-medan-ngaku-diangkat-rahim-tanpa-persetujuan-rs-bantah",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2023/06/07/ilustrasi-konsultasi-tes-darah_169.jpeg?w=360&amp;q=90\" /> Pasien Mimi Maisyarah diduga menjadi korban malapraktik di RSU Muhammadiyah Medan, setelah rahimnya diangkat tanpa persetujuan. Kasus ini sedang diselidiki.",
+    "published": "2026-04-22T20:30:42Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "2d9df25f",
+    "title": "Pemerintah Punya Waktu 1 Tahun Susun Aturan Turunan UU PPRT",
+    "url": "https://www.cnnindonesia.com/nasional/20260422175952-20-1350924/pemerintah-punya-waktu-1-tahun-susun-aturan-turunan-uu-pprt",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2025/03/20/dpr-sahkan-ruu-tni-menjadi-uu-1742450120414_169.jpeg?w=360&amp;q=90\" /> Pemerintah memiliki waktu satu tahun untuk menyelesaikan aturan turunan UU PPRT yang telah disahkan. UU ini mengatur hak dan kewajiban pekerja rumah tangga.",
+    "published": "2026-04-22T20:00:30Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "bb4d5fb1",
+    "title": "Dua Kabupaten di Sumsel Sudah Berstatus Siaga Karhutla",
+    "url": "https://www.cnnindonesia.com/nasional/20260422132113-20-1350772/dua-kabupaten-di-sumsel-sudah-berstatus-siaga-karhutla",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2019/08/09/c3e58404-3035-485e-b024-1e7e0522d341_169.jpeg?w=360&amp;q=90\" /> Dua daerah dari 17 kabupaten/kota di Sumsel telah menetapkan status darurat kebakaran hutan dan lahan (karhutla).",
+    "published": "2026-04-22T18:30:55Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "42dc1bb0",
+    "title": "Pemkot Jaksel Bentuk Tim Awasi Pedagang Siomay Ikan Sapu-Sapu",
+    "url": "https://www.cnnindonesia.com/nasional/20260422214658-20-1350982/pemkot-jaksel-bentuk-tim-awasi-pedagang-siomay-ikan-sapu-sapu",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/17/perburuan-ikan-sapu-sapu-di-jakarta-1776401010865_169.jpeg?w=360&amp;q=90\" /> Pemkot Jakarta Selatan awasi peredaran siomay yang diduga menggunakan ikan sapu-sapu. Tim terpadu dibentuk untuk memastikan keamanan pangan.",
+    "published": "2026-04-22T17:40:40Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "e65cfb3f",
+    "title": "2 Wanita Diduga Joki UTBK Ditangkap: Pakai HP Jadul, Incar Kedokteran",
+    "url": "https://www.cnnindonesia.com/nasional/20260422202322-12-1350964/2-wanita-diduga-joki-utbk-ditangkap-pakai-hp-jadul-incar-kedokteran",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2025/04/23/pelaksanaan-utbk-snbt-di-ui-depok-1745398189500_169.jpeg?w=360&amp;q=90\" /> Panitia UTBK Unsulbar amankan dua wanita diduga sindikat perjokian dengan menggunakan alat komunikasi tersembunyi.",
+    "published": "2026-04-22T17:20:00Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "dca52c67",
+    "title": "33 Jemaah Jatim Alami Kelelahan dan Hipertensi di Asrama Haji",
+    "url": "https://www.cnnindonesia.com/nasional/20260422205229-20-1350971/33-jemaah-jatim-alami-kelelahan-dan-hipertensi-di-asrama-haji",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/21/jemaah-haji-jatim-was-was-kena-rudal-konflik-timur-tengah-1776768124430_169.png?w=360&amp;q=90\" /> Puluhan jemaah haji di Embarkasi Surabaya mengalami kelelahan dan hipertensi di asrama haji.",
+    "published": "2026-04-22T16:35:27Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "8b61c5f4",
+    "title": "PBB Laporkan Kementerian Hukum ke Ombudsman",
+    "url": "https://www.cnnindonesia.com/nasional/20260422215335-32-1350983/pbb-laporkan-kementerian-hukum-ke-ombudsman",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2018/03/01/ff28f593-72d0-4a08-ab6d-6a05a7f077cf_169.jpeg?w=360&amp;q=90\" /> Pengurus PBB laporkan Kementerian Hukum ke Ombudsman atas dugaan maladministrasi dalam pengesahan kepengurusan DPP PBB periode 2025-2030.",
+    "published": "2026-04-22T15:40:28Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "41fc51ab",
+    "title": "Kejagung Sita Dokumen Sawit hingga Hotel di Perusahaan Cangkang Zarof",
+    "url": "https://www.cnnindonesia.com/nasional/20260422211637-12-1350975/kejagung-sita-dokumen-sawit-hingga-hotel-di-perusahaan-cangkang-zarof",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2025/12/15/zarof-ricar-1765795858743_169.jpeg?w=360&amp;q=90\" /> Kejaksaan Agung ungkap perusahaan bayangan yang digunakan Zarof Ricar dan Agung Winarno untuk menyamarkan dana hasil kejahatan dalam kasus pencucian uang.",
+    "published": "2026-04-22T14:45:37Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "2244905e",
+    "title": "PDIP Tetapkan Syaifuddin Zuhri Sebagai Ketua DPRD Surabaya",
+    "url": "https://www.cnnindonesia.com/nasional/20260422210249-633-1350973/pdip-tetapkan-syaifuddin-zuhri-sebagai-ketua-dprd-surabaya",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2024/09/23/said-abdullah-115_169.jpeg?w=360&amp;q=90\" /> DPP PDI Perjuangan menetapkan Syaifuddin Zuhri sebagai Ketua DPRD Surabaya 2024-2029, Ia diharapkan membangun sinergi legislatif-eksekutif untuk masyarakat.",
+    "published": "2026-04-22T14:06:52Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "8fa6fed8",
+    "title": "Pelapor Pemerasan 4 Polisi Polda Maluku Ditahan, Tersangka Sianida",
+    "url": "https://www.cnnindonesia.com/nasional/20260422183727-12-1350932/pelapor-pemerasan-4-polisi-polda-maluku-ditahan-tersangka-sianida",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2022/11/25/ilustrasi-penjara_169.jpeg?w=360&amp;q=90\" /> Pengusaha Hartini jadi tersanka dan ditahan Polda Maluku terkait kepemilikan 46 karung sianida. Ia sebelumnya melaporkan dugaan pemerasan empat polisi.",
+    "published": "2026-04-22T14:00:22Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "121ddbe0",
+    "title": "WNA Tahanan Imigrasi Depok Ditemukan Tewas di Toilet",
+    "url": "https://www.cnnindonesia.com/nasional/20260422202832-12-1350969/wna-tahanan-imigrasi-depok-ditemukan-tewas-di-toilet",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2024/02/04/ilustrasi-korban-tewas_169.jpeg?w=360&amp;q=90\" /> WNA ditemukan tewas di toilet Kantor Imigrasi Depok. Diduga bunuh diri setelah ditahan karena penyalahgunaan izin tinggal.",
+    "published": "2026-04-22T13:55:38Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "9c57d17c",
+    "title": "Modus Pemerasan Bupati Tulungagung Diduga Pakai Surat Pengunduran Diri",
+    "url": "https://www.cnnindonesia.com/nasional/20260422200047-12-1350956/modus-pemerasan-bupati-tulungagung-diduga-pakai-surat-pengunduran-diri",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/12/kpk-periksa-bupati-tulungagung-terkait-kasus-pemerasan-1775965479471_169.jpeg?w=360&amp;q=90\" /> KPK menduga Bupati Tulungagung Gatut Sunu Wibowo memeras perangkat daerah dengan surat pengunduran diri. Sembilan saksi diperiksa untuk mendalami kasus ini.",
+    "published": "2026-04-22T13:50:54Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "d33737b1",
+    "title": "8 Terdakwa Pemerasan Izin TKA Kemnaker Divonis 4 hingga 7,5 Tahun Bui",
+    "url": "https://www.cnnindonesia.com/nasional/20260422201533-12-1350963/8-terdakwa-pemerasan-izin-tka-kemnaker-divonis-4-hingga-75-tahun-bui",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2023/05/30/ilustrasi-penangkapan-2_169.jpeg?w=360&amp;q=90\" /> Delapan terdakwa kasus pemerasan izin TKA di Kemenaker divonis 4-7,5 tahun penjara.",
+    "published": "2026-04-22T13:32:44Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "f3350f4f",
+    "title": "Musrenbang Sumut, Tito Tekankan Pentingnya Perencanaan Matang",
+    "url": "https://www.cnnindonesia.com/nasional/20260422201914-20-1350961/musrenbang-sumut-tito-tekankan-pentingnya-perencanaan-matang",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/22/mendagri-tito-karnavian-1776864230821_169.jpeg?w=360&amp;q=90\" /> Mendagri Muhammad Tito Karnavian menekankan pentingnya perencanaan yang matang dalam penyusunan Rencana Kerja Pemerintah Daerah (RKPD)",
+    "published": "2026-04-22T13:24:41Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "df3403a5",
+    "title": "Hujan Deras Picu Banjir di Sejumlah Titik Denpasar dan Longsor Tabanan",
+    "url": "https://www.cnnindonesia.com/nasional/20260422201154-20-1350959/hujan-deras-picu-banjir-di-sejumlah-titik-denpasar-dan-longsor-tabanan",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2019/11/23/d31a9e56-04c0-4db5-ba1f-d9460c4bb65a_169.jpeg?w=360&amp;q=90\" /> Curah hujan tinggi menyebabkan banjir di Denpasar dan longsor di Tabanan. Warga mengeluhkan banjir yang sudah menjadi langganan saat hujan deras.",
+    "published": "2026-04-22T13:21:47Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:44Z"
+  },
+  {
+    "article_id": "19edcd0e",
+    "title": "Aktivitas Gempa Gunung Slamet Naik, Warga Diimbau Patuhi Batas Aman",
+    "url": "https://www.cnnindonesia.com/nasional/20260422193734-20-1350951/aktivitas-gempa-gunung-slamet-naik-warga-diimbau-patuhi-batas-aman",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2019/08/10/a74de015-c550-46e1-bc40-e4956c3ff335_169.jpeg?w=360&amp;q=90\" /> Aktivitas Gunung Slamet meningkat, status level II (Waspada). Masyarakat diimbau tidak beraktivitas dalam radius 3 km dari kawah puncak.",
+    "published": "2026-04-22T13:07:48Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "a673757a",
+    "title": "Polri-FBI Ungkap Korban Phishing Libatkan WNI Capai 34 Ribu Orang",
+    "url": "https://www.cnnindonesia.com/nasional/20260422190831-12-1350941/polri-fbi-ungkap-korban-phishing-libatkan-wni-capai-34-ribu-orang",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2022/09/12/ilustrasi-hacker-ilustrasi-serangan-siber-1_169.jpeg?w=360&amp;q=90\" /> Bareskrim Polri ungkap sindikat phishing lintas negara yang melibatkan 34 ribu korban, termasuk dari Amerika Serikat.",
+    "published": "2026-04-22T12:52:13Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "da433e1d",
+    "title": "2 Siswa SMA di Parungpanjang Jadi Korban Penyiraman Air Keras",
+    "url": "https://www.cnnindonesia.com/nasional/20260422151033-12-1350842/2-siswa-sma-di-parungpanjang-jadi-korban-penyiraman-air-keras",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/03/31/ilustrasi-air-keras-1774952655892_169.jpeg?w=360&amp;q=90\" /> Dua siswa SMA menjadi korban aksi penyiraman air keras oleh orang tak dikenal (OTK) di wilayah Parungpanjang, Bogor, Jawa Barat.",
+    "published": "2026-04-22T12:46:14Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "8c9f4e82",
+    "title": "MA Kurangi Hukuman Pengedar Mushroom Gili Trawangan Jadi 3 Tahun Bui",
+    "url": "https://www.cnnindonesia.com/nasional/20260422192547-12-1350948/ma-kurangi-hukuman-pengedar-mushroom-gili-trawangan-jadi-3-tahun-bui",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2019/12/23/8f78cb8a-ccf2-4125-aa3a-a789a6b42b35_169.jpeg?w=360&amp;q=90\" /> MA mengubah hukuman Ida Adnawati, pengedar magic mushroom, dari empat menjadi tiga tahun penjara. Putusan PK itu terbit pada 17 April 2026.",
+    "published": "2026-04-22T12:40:46Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "612c9341",
+    "title": "Gunung Lewotobi Laki-Laki Erupsi, Semburan Abu Vulkanik 1,6 Km",
+    "url": "https://www.cnnindonesia.com/nasional/20260422192400-20-1350947/gunung-lewotobi-laki-laki-erupsi-semburan-abu-vulkanik-16-km",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/03/03/kolom-abu-lewotobi-capai-1500-m-1772544442532_169.jpeg?w=360&amp;q=90\" /> Gunung Lewotobi Laki-laki di NTT erupsi semburkan abu setinggi 1,6 km. Dari tengah malam hingga Rabu sore sudah tujuh kali erupsi.",
+    "published": "2026-04-22T12:31:17Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "d9fd5025",
+    "title": "Sindikat Minyakita Abal-abal Ditangkap, Minyak Curah Dikemas Ulang",
+    "url": "https://www.cnnindonesia.com/nasional/20260422191456-12-1350945/sindikat-minyakita-abal-abal-ditangkap-minyak-curah-dikemas-ulang",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/01/19/bulog-ternate-dapat-tambahan-kuota-minyakita-1768810157980_169.jpeg?w=360&amp;q=90\" /> Polda Jatim ungkap praktik ilegal <em>repacking</em> minyak goreng Minyakita di Sidoarjo. Empat tersangka ditangkap, omzet ratusan juta dari produk abal-abal.",
+    "published": "2026-04-22T12:28:02Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "5a154ecb",
+    "title": "Tim Hukum Nadiem Makarim Kompak Absen, Ruang Sidang Melompong",
+    "url": "https://www.cnnindonesia.com/nasional/20260422190038-12-1350937/tim-hukum-nadiem-makarim-kompak-absen-ruang-sidang-melompong",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/22/majelis-hakim-tunda-sidang-nadiem-makarim-1776859610915_169.jpeg?w=360&amp;q=90\" /> Tim advokat Nadiem Makarim tidak hadir dalam sidang dugaan korupsi Chromebook. Nadiem didakwa merugikan negara Rp2,18 triliun terkait pengadaan laptop.",
+    "published": "2026-04-22T12:17:34Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "83719d21",
+    "title": "Wamendagri: Transformasi Bandara Douw Aturure Simbol Harapan Nabire",
+    "url": "https://www.cnnindonesia.com/nasional/20260422190608-20-1350939/wamendagri-transformasi-bandara-douw-aturure-simbol-harapan-nabire",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/22/wamendagri-ribka-haluk-transformasi-bandara-douw-aturure-di-nabire-jadi-simbol-harapan-1776859706797_169.jpeg?w=360&amp;q=90\" /> Bandara Douw Aturure di Nabire, Papua Tengah terus dikembangkan sehingga kini bisa didarati pesawat berbadan besar.",
+    "published": "2026-04-22T12:12:37Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "220e59e0",
+    "title": "Komplotan Ganjal ATM di Jaktim Gasak Rp274 Juta Dibekuk Polisi",
+    "url": "https://www.cnnindonesia.com/nasional/20260422182832-12-1350931/komplotan-ganjal-atm-di-jaktim-gasak-rp274-juta-dibekuk-polisi",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2018/04/03/b4853041-f6e2-41d9-891c-efb3d6081d25_169.jpeg?w=360&amp;q=90\" /> Polres Metro Jakarta Timur menangkap empat pelaku pencurian modus ganjal ATM di Cipayung. Kerugian mencapai Rp274 juta.",
+    "published": "2026-04-22T11:54:16Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "a9b577fc",
+    "title": "Momen Hangat Mendagri Bersama Praja IPDN di Tengah Tugas Kemanusiaan",
+    "url": "https://www.cnnindonesia.com/nasional/20260422184040-20-1350933/momen-hangat-mendagri-bersama-praja-ipdn-di-tengah-tugas-kemanusiaan",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/22/mendagri-tito-karnavian-1776857808744_169.jpeg?w=360&amp;q=90\" /> Mendagri Tito Karnavian makan siang bersama praja IPDN di Aceh Tamiang. Ia apresiasi kontribusi mereka dalam pemulihan pascabencana.",
+    "published": "2026-04-22T11:49:35Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "dc1baeed",
+    "title": "Yusril soal Kasus Feri Amsari Cs: Akademisi Bebas Kritik Pemerintah",
+    "url": "https://www.cnnindonesia.com/nasional/20260422183137-12-1350929/yusril-soal-kasus-feri-amsari-cs-akademisi-bebas-kritik-pemerintah",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2024/10/15/yusril-ihza-mahendra-4_169.jpeg?w=360&amp;q=90\" /> Menteri Yusril menegaskan akademisi bebas mengkritik pemerintah. Ia mendorong penegakan etik sebelum tindakan pidana dalam kritik.",
+    "published": "2026-04-22T11:45:54Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "88a31843",
+    "title": "Mahfud Bela Saiful Mujani soal Dilaporkan dugaan Makar dan Pengasutan",
+    "url": "https://www.cnnindonesia.com/nasional/20260422150638-12-1350840/mahfud-bela-saiful-mujani-soal-dilaporkan-dugaan-makar-dan-pengasutan",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2024/08/20/mahfud-md-tanggapi-keputusan-mk-terkait-pilkada-1_169.jpeg?w=360&amp;q=90\" /> Mahfud MD mengatakan pernyataan Saiful Mujani punya dasar konstitusi. Ia juga menilai tak ada tindak pidana makar dalam pernyataan Saiful.",
+    "published": "2026-04-22T11:43:11Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "99afcd8a",
+    "title": "Kecamuk Hati Syafa, Gen Z Pasuruan yang Naik Haji Gantikan Ibu",
+    "url": "https://www.cnnindonesia.com/nasional/20260422172755-20-1350904/kecamuk-hati-syafa-gen-z-pasuruan-yang-naik-haji-gantikan-ibu",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/22/syafa-haji-muda-asal-pasuruan-1776851938636_169.jpeg?w=360&amp;q=90\" /> Nikmatur Syafaroh, 16, jemaah haji termuda dari Pasuruan, berangkat menggantikan ibunya yang telah meninggal. Ia merasakan campur aduk antara bahagia dan sedih.",
+    "published": "2026-04-22T11:40:12Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "01879632",
+    "title": "Suasana Haru Calon Jemaah Haji Berpisah dengan Anak",
+    "url": "https://www.cnnindonesia.com/nasional/20260422181725-24-1350921/suasana-haru-calon-jemaah-haji-berpisah-dengan-anak",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/22/thumbnail-video-1776856789662_169.jpeg?w=360&amp;q=90\" /> Momen keberangkatan menuju Tanah Suci diwarnai tangis haru calon jemaah haji yang harus rela meninggalkan anak demi menunaikan ibadah Rukun Islam kelima.",
+    "published": "2026-04-22T11:30:15Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "d7120ec1",
+    "title": "KPK Ungkap Fenomena Circle Koruptor, Lingkar Dekat Amankan Duit Haram",
+    "url": "https://www.cnnindonesia.com/nasional/20260422175533-12-1350922/kpk-ungkap-fenomena-circle-koruptor-lingkar-dekat-amankan-duit-haram",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2024/03/05/ilustrasi-gedung-kpk-2_169.jpeg?w=360&amp;q=90\" /> KPK mengungkap fenomena circle koruptor, jejaring korupsi melibatkan keluarga dan rekan dekat. Circle koruptor mendominasi kasus-kasus korupsi di daerah.",
+    "published": "2026-04-22T11:24:31Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "0f937e66",
+    "title": "Kejagung Geledah Perusahaan Cangkang Zarof Ricar",
+    "url": "https://www.cnnindonesia.com/nasional/20260422172008-12-1350901/kejagung-geledah-perusahaan-cangkang-zarof-ricar",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2025/12/15/zarof-ricar-1765772072910_169.jpeg?w=360&amp;q=90\" /> Kejaksaan Agung menggeledah perusahaan cangkang milik eks pejabat MA, Zarof Ricar, terkait pencucian uang.",
+    "published": "2026-04-22T10:27:57Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "8bc13105",
+    "title": "Ingin Basmi Ikan Sapu-sapu, Warga Matraman Malah Tangkap Pengguna Sabu",
+    "url": "https://www.cnnindonesia.com/nasional/20260422164636-20-1350893/ingin-basmi-ikan-sapu-sapu-warga-matraman-malah-tangkap-pengguna-sabu",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2023/08/09/ilustrasi-sabu-1_169.jpeg?w=360&amp;q=90\" /> Saat kerja bakti untuk membasmi ikan sapu-sapu, Warga Matraman Jaktim malah mengamankan pria yang menggunakan narkoba jenis sabu-sabu.",
+    "published": "2026-04-22T10:21:58Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "cd7ab06f",
+    "title": "SPPG Pejaten Perdana Sajikan MBG Prasmanan, Siswa Antusias",
+    "url": "https://www.cnnindonesia.com/nasional/20260422170236-20-1350890/sppg-pejaten-perdana-sajikan-mbg-prasmanan-siswa-antusias",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/22/sppg-pejaten-sajikan-mbg-prasmanan-perdana-1776851835930_169.jpeg?w=360&amp;q=90\" /> SPPG Polri Pejaten menggelar MBG dengan sistem prasmanan di SMA Kemala Bhayangkari 1. Model penyajian ini menjadi uji coba baru dalam pemberian makanan bergizi.",
+    "published": "2026-04-22T10:10:50Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "3317852b",
+    "title": "Alasan PKS Copot Khoirudin dari Jabatan Ketua DPRD DKI Jakarta",
+    "url": "https://www.cnnindonesia.com/nasional/20260422165205-32-1350886/alasan-pks-copot-khoirudin-dari-jabatan-ketua-dprd-dki-jakarta",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2026/04/21/ketua-dprd-dki-jakarta-khoirudin-1776771127090_169.jpeg?w=360&amp;q=90\" /> DPTP PKS mengonfirmasi pergantian Ketua DPRD DKI Jakarta dari Khoirudin ke Suhud Alynudin. Sekjen PKS menyebut ini sebagai bagian dari tour of duty partai.",
+    "published": "2026-04-22T10:04:57Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  },
+  {
+    "article_id": "b6097fbd",
+    "title": "Golkar Usul Ambang Batas Parlemen Naik Jadi 5 Persen di RUU Pemilu",
+    "url": "https://www.cnnindonesia.com/nasional/20260422164447-32-1350884/golkar-usul-ambang-batas-parlemen-naik-jadi-5-persen-di-ruu-pemilu",
+    "summary": "<img src=\"https://akcdn.detik.net.id/visual/2016/06/09/ce979b58-0044-4c69-98f5-7779dbcdbcdb_169.jpg?w=360&amp;q=90\" /> Fraksi Partai Golkar usulkan ambang batas parlemen jadi 5 persen dan pengelompokan fraksi untuk efisiensi dalam RUU Pemilu.",
+    "published": "2026-04-22T09:48:03Z",
+    "source": "CNN-Indonesia",
+    "ingested_at": "2026-04-22T21:39:45Z"
+  }
+]
