@@ -106,19 +106,19 @@ docker compose -f docker-compose-kafka.yml up -d
 Tunggu ±20 detik, lalu buat topic:
 ```bash
 # Buat topic gempa-api
-docker exec kafka-broker kafka-topics.sh \
+docker exec kafka-broker kafka-topics \
   --create --topic gempa-api \
   --bootstrap-server localhost:9092 \
   --partitions 1 --replication-factor 1
 
 # Buat topic gempa-rss
-docker exec kafka-broker kafka-topics.sh \
+docker exec kafka-broker kafka-topics \
   --create --topic gempa-rss \
   --bootstrap-server localhost:9092 \
   --partitions 1 --replication-factor 1
 
 # Verifikasi
-docker exec kafka-broker kafka-topics.sh --list --bootstrap-server localhost:9092
+docker exec kafka-broker kafka-topics --list --bootstrap-server localhost:9092
 ```
 jika ada error saat pembuatan topic jalankan ini dan jalankan ulang pembuatan topic
 ```bash
