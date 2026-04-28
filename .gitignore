@@ -17,3 +17,8 @@ venv/
 .vscode/
 .idea/
 *.Zone.Identifier
+*.Zone.Identifier
+*:Zone.Identifier
+spark/data/
+dashboard/data/
+*.json
