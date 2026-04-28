@@ -1,6 +1,6 @@
 """
 producer_rss.py - GempaRadar
-[NamaAnggota3]: Producer untuk RSS Feed BMKG & Tempo Gempa
+: Producer untuk RSS Feed USGS + CNN Indonesia (filtered gempa)
 Polling setiap 5 menit, kirim ke Kafka topic: gempa-rss
 """
 
@@ -17,16 +17,26 @@ KAFKA_BOOTSTRAP = "localhost:9092"
 TOPIC_RSS       = "gempa-rss"
 POLL_INTERVAL   = 300  # 5 menit
 
+# Keyword filter untuk CNN Indonesia
+GEMPA_KEYWORDS = [
+    "gempa", "earthquake", "seismik", "tsunami", "magnitude",
+    "bmkg", "bencana", "getaran", "richter", "vulkanik",
+    "guncangan", "episenter", "hiposenter", "aftershock"
+]
+
 RSS_FEEDS = [
     {
-        "url"   : "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.atom",
-        "source": "USGS-RSS",
+        "url"    : "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.atom",
+        "source" : "USGS-RSS",
+        "filter" : False,  # semua artikel sudah terkait gempa
     },
     {
-        "url"   : "https://www.cnnindonesia.com/nasional/rss",
-        "source": "CNN-Indonesia",
+        "url"    : "https://www.cnnindonesia.com/nasional/rss",
+        "source" : "CNN-Indonesia",
+        "filter" : True,   # filter hanya artikel terkait gempa
     },
 ]
+
 # Set ID yang sudah dikirim (hindari duplikat)
 sent_ids: set = set()
 
@@ -55,14 +65,18 @@ def make_id(url: str) -> str:
     return hashlib.md5(url.encode()).hexdigest()[:8]
 
 
+def is_gempa_related(title: str, summary: str) -> bool:
+    """Cek apakah artikel terkait gempa berdasarkan keyword."""
+    text = (title + " " + summary).lower()
+    return any(keyword in text for keyword in GEMPA_KEYWORDS)
+
+
 def parse_entry(entry, source: str) -> dict:
     """Parse satu RSS entry menjadi dict konsisten."""
-    url   = getattr(entry, "link", "")
-    title = getattr(entry, "title", "")
+    url     = getattr(entry, "link", "")
+    title   = getattr(entry, "title", "")
     summary = getattr(entry, "summary", "")
-    published = getattr(entry, "published", "")
 
-    # Coba parse tanggal, fallback ke sekarang
     try:
         pub_struct = entry.get("published_parsed")
         if pub_struct:
@@ -87,8 +101,10 @@ def parse_entry(entry, source: str) -> dict:
 def poll_feeds(producer: KafkaProducer):
     """Poll semua RSS feed dan kirim artikel baru ke Kafka."""
     for feed_cfg in RSS_FEEDS:
-        url    = feed_cfg["url"]
-        source = feed_cfg["source"]
+        url        = feed_cfg["url"]
+        source     = feed_cfg["source"]
+        do_filter  = feed_cfg["filter"]
+
         log.info(f"Polling RSS: {source} → {url}")
 
         try:
@@ -99,13 +115,23 @@ def poll_feeds(producer: KafkaProducer):
             log.error(f"  Gagal parse {source}: {e}")
             continue
 
-        new_count = 0
+        new_count      = 0
+        filtered_count = 0
+
         for entry in entries:
             article_url = getattr(entry, "link", "")
             article_id  = make_id(article_url)
 
             if article_id in sent_ids:
                 continue  # skip duplikat
+
+            title   = getattr(entry, "title", "")
+            summary = getattr(entry, "summary", "")
+
+            # Filter keyword hanya untuk CNN Indonesia
+            if do_filter and not is_gempa_related(title, summary):
+                filtered_count += 1
+                continue  # skip artikel tidak terkait gempa
 
             data = parse_entry(entry, source)
             key  = article_id
@@ -115,15 +141,20 @@ def poll_feeds(producer: KafkaProducer):
                 future.get(timeout=10)
                 sent_ids.add(article_id)
                 new_count += 1
-                log.info(f"  Terkirim → [{source}] {data['title'][:60]}...")
+                log.info(f"  Terkirim → [{source}] {title[:60]}...")
             except Exception as e:
                 log.error(f"  Gagal kirim artikel {article_id}: {e}")
 
-        log.info(f"  {source}: {new_count} artikel baru dikirim")
+        if do_filter:
+            log.info(f"  {source}: {new_count} artikel gempa dikirim "
+                     f"({filtered_count} artikel non-gempa difilter)")
+        else:
+            log.info(f"  {source}: {new_count} artikel baru dikirim")
 
 
 def run():
     log.info("=== GempaRadar Producer RSS dimulai ===")
+    log.info(f"Filter keyword gempa aktif untuk CNN-Indonesia: {GEMPA_KEYWORDS}")
     producer = create_producer()
 
     while True:
