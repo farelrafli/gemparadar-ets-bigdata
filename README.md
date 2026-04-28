@@ -222,7 +222,6 @@ curl http://localhost:5000/api/data
 
 ## 📸 Screenshots
 
-> **[Tambahkan screenshot berikut sebelum demo:]**
 > - Screenshot HDFS Web UI (localhost:9870) menampilkan file di /data/gempa
 <img width="1914" height="958" alt="image" src="https://github.com/user-attachments/assets/2a46c00f-14b2-447e-970b-9d66072f0713" />
 <img width="1904" height="965" alt="image" src="https://github.com/user-attachments/assets/d3094c48-238c-4398-a326-ec4317d27cca" />
