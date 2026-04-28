@@ -134,7 +134,7 @@ python kafka/producer_api.py
 
 Verifikasi event masuk:
 ```bash
-docker exec kafka-broker kafka-console-consumer.sh \
+docker exec kafka-broker kafka-console-consumer \
   --topic gempa-api --from-beginning --bootstrap-server localhost:9092
 ```
 
@@ -145,7 +145,7 @@ python kafka/producer_rss.py
 
 Verifikasi:
 ```bash
-docker exec kafka-broker kafka-console-consumer.sh \
+docker exec kafka-broker kafka-console-consumer \
   --topic gempa-rss --from-beginning --bootstrap-server localhost:9092
 ```
 
@@ -188,10 +188,10 @@ Buka browser: [http://localhost:5000](http://localhost:5000)
 ### Kafka
 ```bash
 # Cek semua topic
-docker exec kafka-broker kafka-topics.sh --list --bootstrap-server localhost:9092
+docker exec kafka-broker kafka-topics --list --bootstrap-server localhost:9092
 
 # Cek consumer group
-docker exec kafka-broker kafka-consumer-groups.sh \
+docker exec kafka-broker kafka-consumer-groups \
   --describe --group gemparadar-hdfs-consumer-api \
   --bootstrap-server localhost:9092
 ```
