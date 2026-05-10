@@ -6,6 +6,12 @@
 
 ---
 
+## Video Demo 
+
+[![Demo ETS Big Data GempaRadar](https://img.youtube.com/vi/5AFBZIGzTqE/hqdefault.jpg)](http://www.youtube.com/watch?v=5AFBZIGzTqE "Demo ETS Big Data GempaRadar")
+
+---
+
 ## 👥 Anggota Kelompok & Kontribusi
 
 | No | Nama | NRP | Kontribusi |
