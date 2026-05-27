@@ -1,0 +1,6 @@
+{
+  "table": "gempa_region_rank",
+  "timestamp": "2026-05-27T13:07:33.677584Z",
+  "row_count": 10,
+  "format": "parquet"
+}

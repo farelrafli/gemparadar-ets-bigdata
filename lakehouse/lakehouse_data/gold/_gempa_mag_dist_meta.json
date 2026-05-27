@@ -1,0 +1,6 @@
+{
+  "table": "gempa_mag_dist",
+  "timestamp": "2026-05-27T13:07:31.730169Z",
+  "row_count": 2,
+  "format": "parquet"
+}

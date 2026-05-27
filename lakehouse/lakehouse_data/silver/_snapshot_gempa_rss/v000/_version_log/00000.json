@@ -1,0 +1,7 @@
+{
+  "version": 0,
+  "timestamp": "2026-05-24T17:46:26.450673Z",
+  "operation": "CLEAN_RSS",
+  "row_count": 211,
+  "format": "parquet"
+}

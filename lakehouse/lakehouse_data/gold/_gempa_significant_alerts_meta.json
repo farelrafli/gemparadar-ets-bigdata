@@ -1,0 +1,6 @@
+{
+  "table": "gempa_significant_alerts",
+  "timestamp": "2026-05-27T13:07:39.790793Z",
+  "row_count": 16,
+  "format": "parquet"
+}

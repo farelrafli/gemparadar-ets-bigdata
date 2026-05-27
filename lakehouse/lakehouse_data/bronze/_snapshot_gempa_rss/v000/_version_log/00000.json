@@ -1,0 +1,7 @@
+{
+  "version": 0,
+  "timestamp": "2026-05-24T17:46:13.144964Z",
+  "operation": "INGEST_RSS",
+  "row_count": 419,
+  "format": "parquet"
+}

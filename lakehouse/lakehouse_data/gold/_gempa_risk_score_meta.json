@@ -1,0 +1,6 @@
+{
+  "table": "gempa_risk_score",
+  "timestamp": "2026-05-27T13:07:35.425381Z",
+  "row_count": 10,
+  "format": "parquet"
+}

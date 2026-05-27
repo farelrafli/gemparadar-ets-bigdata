@@ -1,0 +1,8 @@
+{
+  "version": 0,
+  "timestamp": "2026-05-27T13:04:37.095173Z",
+  "operation": "CLEAN_API",
+  "row_count": 30,
+  "format": "parquet",
+  "dropped_rows": 0
+}

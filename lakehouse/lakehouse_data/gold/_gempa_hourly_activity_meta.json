@@ -1,0 +1,6 @@
+{
+  "table": "gempa_hourly_activity",
+  "timestamp": "2026-05-27T13:07:41.235508Z",
+  "row_count": 18,
+  "format": "parquet"
+}

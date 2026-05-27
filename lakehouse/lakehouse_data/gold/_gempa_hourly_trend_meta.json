@@ -1,0 +1,6 @@
+{
+  "table": "gempa_hourly_trend",
+  "timestamp": "2026-05-27T13:07:42.965067Z",
+  "row_count": 18,
+  "format": "parquet"
+}
